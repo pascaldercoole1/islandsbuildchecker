@@ -1,0 +1,157 @@
+/* Reset some default styles */
+body, h1, h2, p, input {
+    margin: 0;
+    padding: 0;
+  }
+
+  .center {
+    text-align: center;
+  }
+  
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #007bff;
+  }
+  
+  .file-input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    color: #555;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .file-input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .output {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+  
+  .credit {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+
+  .credit a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  /* Reset some default styles */
+
+  /* ... (vorheriger CSS-Code) ... */
+
+/* Styling für den Button-Container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Füge etwas Abstand oberhalb des Buttons hinzu */
+  }
+  
+  /* Styling für den "Download List"-Button */
+  .download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .download-button:hover {
+    background-color: #66a3ff;
+  }
+  
+  /* ... (weiterer CSS-Code) ... */
+  
+
+  /* ... (vorheriger CSS-Code) ... */
+
+.file-input {
+    display: none;
+    width: 100%;
+    padding: 15px;
+    background-color: transparent;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s ease-in-out;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .file-input {
+    display: none; /* Das ursprüngliche Eingabefeld ausblenden */
+  }
+  
+  .custom-file-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .custom-file-input {
+    display: inline-block;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .custom-file-input:hover {
+    background-color: #66a3ff;
+  }
+  
+  /* ... (weiterer CSS-Code) ... */
+  
